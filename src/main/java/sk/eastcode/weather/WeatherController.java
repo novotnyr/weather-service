@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WeatherController {
     @RequestMapping
     public String getWeather() {
-        return "Warm";
+        return "Cold";
     }
 
     public static void main(String[] args) {
