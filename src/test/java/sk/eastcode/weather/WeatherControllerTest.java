@@ -9,6 +9,6 @@ public class WeatherControllerTest {
     public void testWeather () {
         WeatherController c = new WeatherController();
         String weather = c.getWeather();
-        Assert.assertEquals("cold", weather);
+        Assert.assertEquals("Cold", weather);
     }
 }
